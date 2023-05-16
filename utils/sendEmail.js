@@ -26,7 +26,7 @@ const sendEmail = async (id, subject, message, send_to, reply_to) => {
   let mailTransporter = nodemailer.createTransport(transporterConfig);
 
   const options = {
-    from: selectedConfig.EMAIL_USER,
+    from: "gonzalolovo@gmail.com",
     to: selectedConfig.EMAIL_USER,
     subject: subject,
     html: message,
