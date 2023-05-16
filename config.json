@@ -1,10 +1,10 @@
 [
     {
         "id": "growthbooster",
-        "EMAIL_HOST": "smtp.ionos.es",
+        "EMAIL_HOST": "imap.ionos.com",
         "EMAIL_USER": "info@growthboosters.eu",
         "EMAIL_PASS": "uD3kmUCs&272",
-        "PORT": 587,
-        "SECURE": false
+        "PORT": 143,
+        "SECURE": true
     }
 ]
