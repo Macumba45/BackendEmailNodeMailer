@@ -5,6 +5,6 @@
         "EMAIL_USER": "info@growthboosters.eu",
         "EMAIL_PASS": "uD3kmUCs&272",
         "PORT": 465,
-        "SECURE": true
+        "SECURE": false
     }
 ]
