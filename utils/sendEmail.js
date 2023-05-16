@@ -17,7 +17,8 @@ const sendEmail = async (id, subject, message, send_to, reply_to) => {
     tls: {
       rejectUnauthorized: true,
       minVersion: "TLSv1.2"
-    }
+    },
+    direct: true,
   }
 
   console.log(transporterConfig)
